@@ -4,9 +4,10 @@ const path = require('path');
 const Gasto = require('./data/gastos'); // Asegúrate de que el modelo esté bien definido
 
 // URI de conexión (¡entre comillas!)
-//const URI = 'mongodb://atlas-sql-686e8649c0f71550b09879b0-pnvdmh.a.query.mongodb.net/sample_mflix?ssl=true&authSource=admin';
+const URI = 'mongodb+srv://msalazar:CXaPc7Q8nPxVffMe@cluster0.nce8d7z.mongodb.net/gastos_db?retryWrites=true&w=majority&appName=Cluster0';
 
-const URI = 'mongodb://127.0.0.1:27017/gastos';
+
+//const URI = 'mongodb://127.0.0.1:27017/gastos';
 
 
 // Conexión a MongoDB
